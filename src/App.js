@@ -22,7 +22,7 @@ function App() {
   return (
     <main className='flex column align-center'>
       <img
-      src={require('design a top header for this space').default}
+      src={require('./assets/fairfax-header.png')}
       className='logo'
       alt='Fairfax Lovelace Portfolio'/>
       <Nav
