@@ -8,11 +8,17 @@ function Portfolio() {
             deployLink: 'https://young-caverns-80211.herokuapp.com/',
             githubLink: 'https://github.com/flovelace/pizza-hunt',
             feature: true
+
         },
         {
             name: 'Cool Tech Blog',
             deployLink: 'https://young-caverns-80211.herokuapp.com/',
             githubLink: 'https://github.com/flovelace/cool-tech-blog'
+        },
+        {
+            name: 'Note Taker',
+            deployLink: 'https://peaceful-castle-75538.herokuapp.com/',
+            githubLink: 'https://github.com/flovelace/note-taker'
         }
     ])
 

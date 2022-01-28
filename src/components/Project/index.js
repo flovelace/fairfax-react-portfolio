@@ -1,12 +1,12 @@
 import React from 'react';
 import { thisUrl } from '../../utils/helpers';
 
-function Project({ name, deployLink, githubLink, feature, index }) {
+function Project({ name, githubLink, feature, index }) {
     return (
         
-        <div className={(feature && `featured`) || `portfolio-img-container`}>
+        <div className={(feature && `feature`) || `portfolio-img-container`}>
             
-            <div className='screen flex justify-center align-center'>
+            <div className='img-cont flex justify-center align-center'>
                 <h3 className='portfolio-img-title'>{name}</h3>
             </div>
             <div className='link-container flex justify-center align-center'>
@@ -20,7 +20,7 @@ function Project({ name, deployLink, githubLink, feature, index }) {
             </div>
             <img 
             className='portfolio-img'
-            //src={require(`../../assets/imgs/apps/app-${index}.png`).default} 
+            src={require(`../../assets/imgs/projects/project-${index}.png`)} 
             alt={`Screenshot of ${name}`} />
         </div>
     );

@@ -3,9 +3,10 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
+import Resume from './components/Resume';
 
 function App() {
-  const navLinks = ['About', 'Work', 'Contact' ];
+  const navLinks = ['About', 'Work', 'Contact', 'Resume' ];
   const [ currentPage, setCurrentPage ] = useState(navLinks[0]);
 
   const renderPage = () => {
@@ -14,6 +15,8 @@ function App() {
         return <Portfolio />;
       case 'Contact':
         return <Contact />;
+      case 'Resume':
+        return <Resume />;
       default:
         return <About />;
     }
@@ -35,7 +38,9 @@ function App() {
         <a href='https://github.com/flovelace' className='footer-link' target='_blank' rel='noreferrer'>
           Github
         </a>
-        < a href='https://www.linkedin.com/in/aflovelace/' className='footer-link' target='_blank' rel='noreferrer'></a>
+        < a href='https://www.linkedin.com/in/aflovelace/' className='footer-link' target='_blank' rel='noreferrer'>
+          LinkedIn Profile
+        </a>
       </footer>
     </main>
   );
