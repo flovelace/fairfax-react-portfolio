@@ -5,7 +5,7 @@ function Nav(props) {
 
     return (
         <nav>
-            <ul classname='nav-links'>
+            <ul className='nav-links'>
                 {navLinks.map(link => (
                     <li key={link}>
                         <h2
@@ -19,3 +19,5 @@ function Nav(props) {
         </nav>
     );
 };
+
+export default Nav;
