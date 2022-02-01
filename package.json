@@ -1,6 +1,6 @@
 {
   "homepage": "http://flovelace.github.io/fairfax-react-portfolio",
-  "name": "react-portfolio",
+  "name": "fairfax-react-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
